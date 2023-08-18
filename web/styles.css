@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(25, 30, 46);
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.navbar {
+  width:100%;
+	height:80px;
+	background: rgb(9, 11, 19, 0.4);
+}
+
+.logo{
+  width: 45px;
+  height: auto;
+  padding: 20px 20px;
+}
+
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+ display: inline-block; 
+ line-height: 80px;
+
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color:rgb(94, 113, 177);
+  font-size: 18.5px;
+  padding: 6px 13px;
+  font-family: 'robot', sans-serif;
+  letter-spacing:4px;
+  transition: 0.5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: rgb(32, 45, 99);
+  border-radius: 1px;
+}
+
+.letsgo-button{
+  
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(94, 113, 177);
+  text-transform: uppercase;
+  font-family: 'robot', sans-serif;
+  letter-spacing:4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+a:hover{
+  color: rgb(101, 131, 238);
+  background:rgb(41, 60, 134);
+  box-shadow: 0 0 10px rgb(41, 60, 134), 0 0 40px rgb(41, 60, 134),  0 0 80px rgb(41, 60, 134);
+  
+}
